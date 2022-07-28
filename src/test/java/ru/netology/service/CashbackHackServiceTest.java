@@ -9,7 +9,6 @@ public class CashbackHackServiceTest {
     @Test
     public void testRemain1000() {
         CashbackHackService cashbackHackService = new CashbackHackService();
-
         int amount = 1000;
 
         int actual = cashbackHackService.remain(amount);
